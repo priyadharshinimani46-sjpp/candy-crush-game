@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #ff4081;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 3px solid #333;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/* Candy colors */
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+.yellow { background: yellow; }
+.purple { background: purple; }
